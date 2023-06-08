@@ -16,8 +16,25 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+	text-align: center;
+}
+ul {
+	margin: auto;
+}
+li > button {
+	font-size: 2.4rem;
+	text-align: left;
+	text-decoration: underline;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
 button,
 input {
+	width: 80%;
+	margin: auto;
 	font-family: inherit;
 	font-size: 100%;
 	line-height: inherit;
